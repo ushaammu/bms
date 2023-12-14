@@ -1,0 +1,50 @@
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#chat-display {
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.chat-form {
+    margin-top: 10px;
+}
+
+#user-input {
+    width: 300px;
+    padding: 5px;
+}
+
+#send-button {
+    padding: 5px 10px;
+}
+.container {
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  video {
+    margin-top: 20px;
+    border: 1px solid wheat;
+  }
+  
+  canvas {
+    display: none;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  body{
+    background-image: url(./homepic.jpg);
+    background-size: cover;
+    background-position: center;
+  }

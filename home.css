@@ -1,0 +1,19 @@
+img{
+    border-radius: 50%;
+    color: palevioletred;
+    background-color:#427D9D;
+    background-size: contal;
+    height:150px;
+    width: 150px;
+    float:left;
+}
+body{
+    background-image:url(./bg.png) ;
+    background-size: cover;
+}
+ h1{
+    font-family: "arial";
+    font-weight: 400;
+    color: crimson;
+ }
+ 

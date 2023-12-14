@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+   
+  <div class="login-container">
+    <h1>chat bot</h1>
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div><a href="cont.html">
+       
+      <button type="submit">Login</button>
+      <a href ="nav.html">NEXT </a><BR>
+      <a href="cont.html">Register</a>
+    </form>
+    <p id="errorText" class="error-message"></p>
+  </div>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #f0f0f0;
+    }
+
+    .moving-object {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-color: #3498db;
+      border-radius: 50%;
+      animation: moveAround 5s linear infinite;
+    }
+
+    @keyframes moveAround {
+      0% {
+        transform: translate(0, 0);
+      }
+      25% {
+        transform: translate(50vw, 50vh);
+      }
+      50% {
+        transform: translate(0, 100vh);
+      }
+      75% {
+        transform: translate(-50vw, 50vh);
+      }
+      100% {
+        transform: translate(0, 0);
+      }
+    }
+  </style>
+
+  <div class="moving-object"></div>
+  
+  
+
+  <script src="q.js"></script>
+</body>
+</html>
